@@ -20,7 +20,7 @@ export default function Hero() {
         {/* Avatar */}
         <div className={`hero-item transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
           <div className="w-[180px] h-[180px] mx-auto rounded-full overflow-hidden shadow-lg shadow-accent/10 ring-4 ring-white">
-            <img src="/avatar.jpg" alt="谢施炫" className="w-full h-full object-cover" />
+            <img src={import.meta.env.BASE_URL + 'avatar.jpg'} alt="谢施炫" className="w-full h-full object-cover" />
           </div>
         </div>
 
